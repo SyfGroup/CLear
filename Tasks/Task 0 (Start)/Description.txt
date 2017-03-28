@@ -1,0 +1,24 @@
+Main ma skladac sie z 2 list
+- Pierwsza - bedzie posiadac 2 pozycje (po jednej dla kazdego autora)
+- Druga - bedzie zawierala X pozycji zdefiniowanych przez tablice (ile Stringów w tablicy tyle pozycji)
+Po za tym Class'a powinna miec zdefiniowane funkcje(jenda(wystarczy dobry pomysl na to) lub wiele) do wykonania script'u wybranej przez uzytkownika
+
+Przykladowy schemat Classy:
+-----------------------------------------------------------------------------------------------------------------------------
+Class CLearnMenu:
+
+int FirstList(String autorOne, Sting autorTwo){WYswietl liste autorów jak na pierwszym obrazku w Task0 i zwróc wybór}
+int SecondList(String[] scriptList) {Wyswietl liste script'ów jak na drugim obrazku w Task0 i zwróc wybór}
+void executeChose(Int chose){wykonaj script wybrany przez uzytkownika}
+-----------------------------------------------------------------------------------------------------------------------------
+
+Przykladowe wykonanie Classy
+-----------------------------------------------------------------------------------------------------------------------------
+main:
+
+obj a;
+String[] ListOfScript = {funkcja1, funkcja2, ..., funkcjaX} 
+int autor = a.FirstList("Kruksu", "Grabierzca");
+int script = a.SecondList(ListOfScript);
+a.ExecuteChose(script);
+-----------------------------------------------------------------------------------------------------------------------------
