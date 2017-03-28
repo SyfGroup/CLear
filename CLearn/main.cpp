@@ -1,10 +1,14 @@
 #include <iostream>
 
 using namespace std;
-
+int funkcja()
+{
+    return 0;
+}
 int main()
 {
     int i = 0;
-    cout << "Hello world!" << endl;
+    cout << "Dzia³a Micha³????????/" << endl;
+
     return 0;
 }
