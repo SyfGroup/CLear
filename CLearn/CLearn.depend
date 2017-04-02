@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491129688 source:c:\users\kam41\desktop\studia\ii semestr\programowanie\clearn\clearn\clearn\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
